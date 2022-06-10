@@ -1,0 +1,28 @@
+{
+  "name": "clipboard",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "name": "clipboard",
+    "version": "1.0.0",
+    "assets": [
+      "index.js",
+      "utils/inquirer.js",
+      "config.json"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "clipboardy": "^3.0.0",
+    "inquirer": "^8.2.4",
+    "pkg": "^5.7.0"
+  }
+}
