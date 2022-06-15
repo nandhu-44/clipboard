@@ -1,28 +1,28 @@
 {
-  "name": "clipboard",
+  "name": "nodejs-clipboard",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Store and Update data from/on your clipboard and save it to a config.json file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "pkg": {
-    "name": "clipboard",
-    "version": "1.0.0",
-    "assets": [
-      "index.js",
-      "utils/inquirer.js",
-      "config.json"
-    ]
+    "start": "node index.js",
+    "test": "nodemon  idnex.js -e js"
   },
   "keywords": [],
-  "author": "",
+  "author": "nandhu-44",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.1",
     "clipboardy": "^3.0.0",
-    "inquirer": "^8.2.4",
-    "pkg": "^5.7.0"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandhu-44/clipboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nandhu-44/clipboard/issues"
+  },
+  "homepage": "https://github.com/nandhu-44/clipboard#readme"
 }
